@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import UserCard from './UserCard.vue'
-import { useUserStore } from '../stores/users'
+import { useUserStore } from '../stores/Users'
 
 // Use the store
 const userStore = useUserStore()

@@ -22,6 +22,10 @@ const emit = defineEmits<{
 function handleSelect() {
   emit('select', props.user.id)
 }
+
+function handleDelete() {
+  emit('delete', props.user.id)
+}
 </script>
 
 <template>
